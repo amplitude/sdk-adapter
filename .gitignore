@@ -1,0 +1,48 @@
+.env
+
+# OSX stuff
+.DS_STORE
+
+# General file exclusions
+*.log
+*.log.json
+*.log*.json
+
+# General folder exclusions
+dist/
+build/
+reports/
+lib/
+
+# Tooling stuff
+coverage/
+node_modules/
+.eslintcache*
+.anima
+
+# Serverless stuff
+.serverless/
+
+# IDE stuff
+*.sublime-workspace
+*.idea/
+# Ignore all vscode settings
+.vscode
+# except for the ones at the project root
+!/.vscode
+# Ignore all Intellij Idea settings
+.idea
+
+# files generated for cerulean statistics
+tree.json
+cerulean-stats.csv
+
+# ts build config
+*.tsbuildinfo
+
+# Storybook
+storybook-static/
+
+# Turborepo outputs
+.turbo
+.yalc

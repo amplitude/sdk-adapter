@@ -1,0 +1,21 @@
+{
+  "name": "sdk-adapter",
+  "version": "0.0.1",
+  "description": "Amplitude SDK Wrapper tool",
+  "main": "lib/index.js",
+  "author": "Amplitude",
+  "license": "MIT",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@amplitude/analytics-types": "^0.17.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@amplitude/analytics-browser": "^1.9.1",
+    "@segment/analytics-next": "^1.51.2"
+  }
+}
