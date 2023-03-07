@@ -1,10 +1,10 @@
 {
-  "name": "sdk-adapter",
+  "name": "@amplitude/sdk-adapter",
   "version": "0.0.1",
-  "description": "Amplitude SDK Wrapper tool",
-  "main": "lib/index.js",
+  "description": "Amplitude SDK Wrapper Tool",
   "author": "Amplitude",
   "license": "MIT",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
@@ -17,5 +17,20 @@
   "dependencies": {
     "@amplitude/analytics-browser": "^1.9.1",
     "@segment/analytics-next": "^1.51.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amplitude/sdk-adapter.git"
+  },
+  "keywords": [
+    "analytics",
+    "amplitude"
+  ],
+  "bugs": {
+    "url": "https://github.com/amplitude/sdk-adapter/issues"
+  },
+  "homepage": "https://github.com/amplitude/sdk-adapter#readme"
 }
