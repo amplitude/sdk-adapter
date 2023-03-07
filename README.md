@@ -11,7 +11,12 @@ Amplitude's tool to ease engineering cost of migrating SDK libraries. Currently 
 
 # Usage
 
-### 1. Import packages
+### 1. Install
+```
+npm install 
+```
+
+### 2. Import packages
 
 ```js
 import { AnalyticsAdapter } from "sdk-adapter";
@@ -19,7 +24,7 @@ import { AnalyticsBrowser } from "@segment/analytics-next";
 import { createInstance } from "@amplitude/analytics-browser";
 ```
 
-### 2. Create instances of Amplitude and Segment SDKs
+### 3. Create instances of Amplitude and Segment SDKs
 
 ```js
 const amplitude = createInstance();
@@ -29,7 +34,7 @@ const segment = new AnalyticsBrowser();
 segment.load({ writeKey: SEGMENT_WRITE_KEY });
 ```
 
-### 3. Create adapter instance and replace Segment APIs with supported adapter APIs
+### 4. Create adapter instance and replace Segment APIs with supported adapter APIs
 
 ```js
 const analytics = new AnalyticsAdapter(segment, amplitude);
