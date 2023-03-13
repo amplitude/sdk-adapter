@@ -1,6 +1,6 @@
 {
   "name": "@amplitude/sdk-adapter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Amplitude SDK Wrapper Tool",
   "author": "Amplitude",
   "license": "MIT",
