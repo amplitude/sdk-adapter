@@ -8,7 +8,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@amplitude/analytics-types": "^0.17.0",
